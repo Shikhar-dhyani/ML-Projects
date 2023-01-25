@@ -1,0 +1,104 @@
+{% extends "base.html "%}
+
+{% block content%}
+<div class=" container2 " style="background: whitesmoke ; padding-bottom: 10px;" >
+  <br>
+  <h2 align="center"> <b>Your Prediction Details............. </h2>
+  <hr>
+  
+  <div class="inputs ">
+    <div class = "card form-group" style="width: 18rem;height :4rem">
+    <div class="card-body ">
+      <h5 class="card-title"> House Area : {{z}} sqft</h5>
+    </div>
+</div>
+<div class="card form-group" style="width: 18rem; height: 4rem;" >
+  <div class="card-body">
+    <h5 class="card-title">BHK : {{d}}</h5>
+  </div>
+</div>
+
+<div class="card form-group" style="width: 22rem; height: 4rem; " >
+  <div class="card-body">
+    <h5 class="card-title">Location Choosen : {{city}}</h5>
+  </div>
+</div>
+</div>
+<div class="card form-group" style="width: 32rem; height: 4rem; margin:auto; ">
+  <div class="card-body" style=" background-color: green;">
+    <h5 class="card-title">Estimated Range :  RS {{name}} to RS {{name2}} </h5>
+  </div>
+</div>
+</div>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+<ol class="carousel-indicators">
+<li data-target="#myCarousel" class="active" data-slide-to="0"></li>
+<li data-target="#myCarousel" data-slide-to="1"></li>
+<li data-target="#myCarousel" data-slide-to="2"></li>
+<li data-target="#myCarousel" data-slide-to="3"></li>
+<li data-target="#myCarousel" data-slide-to="4"></li>
+<li data-target="#myCarousel" data-slide-to="5"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<div class="container container1">
+    
+  <img class="d-block w-100 imag" src="https://wallpapercave.com/wp/wp3604714.jpg" alt="First slide">
+  <h2>Home is where love resides, memories are created, friends always belong, and laughter never ends</h2>
+</div>
+
+</div>
+<div class="carousel-item ">
+  <div class="container container1">
+    <img class="d-block w-100 imag" src="https://s.hdnux.com/photos/67/44/22/14566569/5/rawImage.jpg" alt="First slide">
+   <h2>The magic thing about home is that it feels good to leave, and it feels even better to come back</h2>
+  </div>
+</div>
+<div class="carousel-item ">
+  <div class="container container1">
+    <img class="d-block w-100 imag" src="https://www.nivasa.lk/wp-content/uploads/2014/09/area-4.jpg" alt="First slide">
+   <h2>Home is a place you grow up wanting to leave, and grow old wanting to get back to</h2>
+  </div>
+  </div>
+  
+<div class="carousel-item ">
+  <div class="container container1">
+    <img class="d-block w-100 imag" src="https://4.bp.blogspot.com/-iGnIOKd3OZc/Ukokx-UJWGI/AAAAAAAAAQs/x4VN7oFWltg/s1600/Beautiful-Houses-Week-33_Bonaire-House-by-Silberstein-Architecture_01-@-GenCept45.jpg" alt="First slide">
+   <h2>In this home… We do second chances. We do real. We do mistakes. We do I’m sorrys. We do loud really well. We do hugs. We do together best of all</h2>
+  </div>
+  </div>
+<div class="carousel-item ">
+  <div class="container container1">
+    <img class="d-block w-100 imag" src="https://cdn.jhmrad.com/wp-content/uploads/top-most-beautiful-houses-world_151194.jpg" alt="First slide">
+    <h2>Home is a shelter from storms-all sorts of storms  -William J. Bennett</h2>
+    
+  </div>
+  </div>
+<div class="carousel-item ">
+  <div class="container container1">
+    <img class="d-block w-100 imag" src="https://th.bing.com/th/id/R.c8547f20aafa2b11fbe56e92cae7888c?rik=3mO9m7iOhagoig&riu=http%3a%2f%2fbeautyharmonylife.com%2fwp-content%2fuploads%2f2013%2f08%2f558084_455703801173433_581948460_n1.jpg&ehk=6I%2fESVpBaG3tiZiKUXDiRTOq5h6NWV3MtRMu1%2faElbA%3d&risl=&pid=ImgRaw&r=0" alt="First slide">
+    <h2>Home is where one starts from - T.S. Eliot</h2>
+  </div>
+</div>
+</div>  
+<button class="carousel-control-prev" type="button" data-target="#myCarousel" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-target="#myCarousel" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</button>
+</div>  
+<br>
+<br>   
+<form style="position: relative;" name= " house"  action="." method="head">
+<button type="submit"  class =" btn btn-lg btn-primary" style="position: absolute; right: 0; margin-right: 30px; border-radius: ;" value= "Delhi" > Lets Predict for other houses </button>
+</form>
+<br>
+
+{% endblock%}
+    
